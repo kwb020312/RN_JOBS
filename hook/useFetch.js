@@ -27,7 +27,7 @@ const useFetch = (endpoint, query) => {
       setIsLoading(false);
     } catch (error) {
       setError(error);
-      alert("There is an error");
+      alert("오류가 발생했습니다. 재시도해주세요");
     } finally {
       setIsLoading(false);
     }
