@@ -52,6 +52,14 @@ const JobDetails = () => {
           />
         );
       case "의무사항":
+        return (
+          <Specifics
+            title={"의무사항"}
+            points={
+              data[0].job_highlights?.Responsibilities ?? ["해당사항 없음"]
+            }
+          />
+        );
     }
   };
 
