@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
   applyBtn: {
     flex: 1,
     backgroundColor: "#FE7654",
-    height: "100%",
+    width: 55,
+    height: 55,
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,
