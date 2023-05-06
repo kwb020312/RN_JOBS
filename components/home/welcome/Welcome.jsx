@@ -21,7 +21,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>안녕하세요, Adrian</Text>
+        <Text style={styles.userName}>안녕하세요, 사용자님</Text>
         <Text style={styles.welcomeMessage}>
           당신에게 가장 잘 어울리는 직업을 찾아보세요!
         </Text>
